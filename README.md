@@ -14,10 +14,10 @@ To make the conversion an easier process I have created the Magic Palette Conver
 
 ### Quick note before running the script
 This script will overwrite existing palettes which usually is the desired outcome due to 
-naming, however if you would like to preserve the original palettes you can pass -o False and new palettes will be 
+naming. If you would like to preserve the original palettes you can pass -o False and new palettes will be 
 created with the prefix hex_
 
-When running pass -p with the full system path to your palettes.  Relative paths from the python file usually 
+When running, pass -path with the full system path to your palettes.  Relative paths from the python file usually 
 work, but full paths always work.
 
 ```shell
@@ -25,8 +25,7 @@ python magic_palette_converter.py -path PATH_TO_YOUR_PALETTES
 ```
 
 If there were any palette files that could not be converted they will be noted in the console.  This could
-happen if there are unusual lines of text in the files.  If you find a case where this happens, please let
-me know, so I can add logic to fix such a case.
+happen if there are unusual lines of text in the files.  If you find a case where this happens, please create an [issue](https://github.com/billyz313/magic-palette-converter/issues).
 
 ## Contact
 
